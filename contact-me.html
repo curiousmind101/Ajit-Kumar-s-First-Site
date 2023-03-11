@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Ajit</title>
+</head>
+<body>
+    <h4>Contact Details</h4>
+    <a href="mailto:thelordkalki@gmail.com">Email</a> <br>
+    <a href="tel:+91939XXXXXXX">Phone</a>
+    <hr noshade="">
+    <form action="mailto:thelordkalki@gmail.com" method="post" enctype="text/plain">
+        <label for="">Your Name: </label>
+          <input type="text" name="YourName"><br>
+        <label for="">Email Adress: </label>
+        <input type="email" name="Youremail"><br>
+        <label for="">Phone:</label>
+        <input type="tel" name="YourPhoneNo "><br>
+        <label for="">Your Message: </label>
+        <label for="">Gender:</label>
+        <label for="">Male</label><input type="checkbox" name="Male"><label for="">Female</label><input type="checkbox" name="Female"><br>
+        <input type="color" name="HairColor" id="HairColor"><label for="HairColor">Your Haircolor</label><br>
+        <input type="color" name="Skincolor" id="Skincolor"><label for="Skincolor">Your Skincolor</label><br>
+        <label for="">Date of Birth</label><input type="date" name="DOB"><br>
+        <label for="">Time of Birth</label><input type="time" name="TOB"><br>
+        <label for="">Meeting Schedule</label><input type="datetime-local" name="meetingtiming"><br>
+        <label for="">Choose Profile Picture</label><input type="file" name="avatar" accept="image/png, image/jpeg, image/jpg"><br>
+        <!-- You can also use .png, .jpeg, .jpg etc instead of image/png form -->
+
+        <label for="">Userid</label><input type="text" name="Userid"><br>
+        <label for="">Password</label><input type="password" name="password"><br> 
+        <label for="">Radio</label><input type="radio" name="radio"><br>
+        <label for="">Range</label><input type="range" name="range"><br>
+        <label for="">Search</label><input type="search" name="search"><br>
+        <label for="">Reseet</label><input type="reset">
+        <label for="">Press to Download</label><input type="button" name="Download" value="Download">
+        <!--For more info/Details visit https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/button -->
+
+        <textarea name="Your Message" id="" cols="30" rows="10"></textarea>
+
+        
+        <input type="submit">
+    </form>
+</body>
+</html>
+<!--
+    input : for taking data input in form
+    textarea : creates a text box 
+    mailto: attribute to anchoring mail(sending mail to a specific mail).
+    for="": not known
+    tel: for mobile number
+    form : create form
+    action : defines what will happen after clicking the submit button
+    method : post : will post the form
+    label : label for your form section/element
+    name="" : under which will be variable the data saved
+    enctype : encoding type
+
+-->
